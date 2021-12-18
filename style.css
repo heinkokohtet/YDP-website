@@ -1,0 +1,341 @@
+body{
+  overflow-x: hidden;
+}
+h1{
+	font-family: aa;
+}
+
+@font-face
+
+{
+	font-family:aa;
+	src:url('rr.otf');
+}
+h2{
+	font-family:bb;
+	
+}
+@font-face
+
+{
+	font-family:bb;
+	src:url('selawkl.ttf');
+}
+
+.hidden-thing
+{
+  position: absolute;
+  left: 100%;
+  width: 50px;
+  height: 50px;
+  opacity: 0;
+}
+div#cool1{
+	background:linear-gradient(to bottom,rgba(0,0,0,0)0, rgba(0,0,0,0)100%),url(.jpg);
+	width:100%;
+	height:100vh;
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size: cover;
+	padding:10rem 10rem;
+	color:white;
+}
+#divider{
+  max-width:3.25rem;
+  border=width:.2rem;
+  border-color:#ec037c;
+}
+#contactbtn{
+  padding:1.25rem 10.25rem;
+  font-size: .85rem;
+  font-weight: 1000;
+  text-transform: uppercase;
+  border:none;
+  border-radius:20rem;
+  background-color:#E0AA3E;
+  color:black;
+
+}
+#letter{
+  position:absolute;
+  top:5%;
+  left:30%;
+  font-size:20px;
+  background-color:rgba(255,255,255,0);
+  padding:10px 50px;
+  display:block;
+  text-align:center;
+}
+
+.nav-wrap { 
+    margin: 50px auto; 
+    background-color: rgba(0, 0, 0, 0.6); 
+    border-top:    2px solid white; 
+    border-bottom: 2px solid white; 
+}
+
+/* Clearfix */
+.group:after { visibility: hidden; display: block; content: ""; clear: both; height: 0; }
+*:first-child+html .group { zoom: 1; } /* IE7 */
+
+
+
+/* Example One */
+#example-one li { 
+    display: inline-block;  
+}
+#example-one a { 
+    color: black; 
+    font-size: 14px; 
+    float: left;
+    padding: 6px 10px 4px 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+#example-one a:hover { 
+    color: #E0AA3E; 
+}
+#magic-line { 
+    position: absolute;
+    bottom: -2px; 
+    left: 0; 
+    width: 100px; 
+    height: 2px; 
+    background: #EDC967;
+}
+.current_page_item a { 
+    color: white !important; 
+}
+#example-one li, .ie7 #example-one li { 
+    display: inline; 
+}
+#magic-line {
+    bottom: -3px;
+}
+#one img:hover { 
+    color: grey; 
+}
+
+#container {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0);
+  background: rgba(155,212,240); /* Black see-through */
+  color: #f1f1f1;
+  width: 100%;
+  transition: .5s ease;
+  opacity:0;
+  color: black;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+}
+.containerr {
+  position: relative;
+  width: 50%;
+  max-width: 300px;
+}
+.card:hover .overlay {
+  opacity: 0.5;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+div#carouselExampleIndicators img
+    {
+     width:100px;
+     padding-right: 
+     height:400px;
+     /*object-fit:cover;*/
+   }
+
+   
+a.justify-content-end:
+.carousel-item {
+  position: relative;
+}
+
+/* Bottom right text */
+.text-block {
+  position: absolute;
+  bottom: 160px;
+  right: 90px;
+  background-color: rgba(155,212,240,0.2);
+  color: black;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.text-block1 {
+  position: absolute;
+  bottom: 250px;
+  right: 250px;
+  background-color: rgba(155,212,240,0.3);
+  color: black;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.text-block2 {
+  position: absolute;
+  bottom: 200px;
+  right: 100px;
+  background-color: rgba(155,212,240,0.3);
+  color: black;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.column {
+  float:right;
+  width: 33.33%;
+  padding: 50px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.footer {
+  
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color:#9BD4F0;
+  color:black;
+  
+  
+}
+
+.button {
+  background-color: black; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.button1 {width: 250px;}
+.button2 {width: 50%;}
+.button3 {width: 100%;}
+
+.hote
+{
+	text-align:center;
+}
+#counter1
+{
+	width:100%;
+	height: 480px
+}
+flip-box {
+  background-color: transparent;
+  width: 300px;
+  height: 200px;
+  border: 1px solid #f1f1f1;
+  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+}
+
+/* This container is needed to position the front and back side */
+.flip-box-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-box:hover .flip-box-inner {
+  transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.flip-box-front, .flip-box-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+}
+
+/* Style the front side (fallback if image is missing) */
+.flip-box-front {
+  background-color: #bbb;
+  color: black;
+}
+
+/* Style the back side */
+.flip-box-back {
+  background-color: dodgerblue;
+  color: white;
+  transform: rotateY(180deg);
+}
+#navbar
+{
+	background-color: :#9BD4F0;
+}
+
+/* Style the video: 100% width and height to cover the entire window */
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height:100%;
+}
+
+/* Add some content at the bottom of the video/page */
+.content {
+  position: fixed;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Style the button used to pause/play the video */
+#myBtn {
+  width: 200px;
+  font-size: 18px;
+  padding: 10px;
+  border: none;
+  background: #000;
+  color: #fff;
+  cursor: pointer;
+}
+
+#myBtn:hover {
+  background: #ddd;
+  color: black;
+}
+
